@@ -5,10 +5,19 @@ Also, it shows how you can eagrly fetch the lazy loaded defined entity.
 
 ## Getting Started
 There are 4 entities in this example `Country`, `User`, `LocationDivision` and `Store`.
-Each Store is assigned to a Location Division.
-Each Location Division has a country and a user who manages that location division.
 
-This is how all these entities have relationships.
+Each Location Division has a country and a user who manages that location division.
+Each Store is assigned to a Location Division.
+`````
+Country		User
+   |		  |
+   |		  |
+  Location Division
+         |
+         |
+         |
+       Store
+`````
 
 To understand how lazy and eager loading works please refer `LocationDivisionController.java` and `StoreController.java`
 Each controller has `lazy` and `eager` methods.
