@@ -19,10 +19,10 @@ Country		User
        Store
 `````
 
-To understand how lazy and eager loading works please refer `LocationDivisionController.java` and `StoreController.java`
+To understand how lazy and eager loading works please refer `LocationDivisionController.java` and `StoreController.java`.
 Each controller has `lazy` and `eager` methods.
 
-In case if you have any query please raise is as issue in Github.
+In case of any query, please raise it as an issue in Github.
 
 ## Build With
 
